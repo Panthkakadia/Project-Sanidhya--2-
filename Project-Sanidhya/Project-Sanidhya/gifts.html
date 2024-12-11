@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Layout - Bath and Body Works</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="./img/pic 5.png" alt="Logo" class="logo">
+            <span class="brand-name">Bath and Body Works</span>
+        </div>
+        <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./ouroffering.html"> OUR OFFERINGS</a></li>
+            <li><a href="./gifts.html">GIFTS</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+
+        <section class="product-section">
+            <h2>Explore Our Product Offerings</h2>
+            <label for="product-category" class="dropdown-label">Select a Category:</label>
+            <select id="product-category">
+                <option value="" disabled selected>Choose a category</option>
+                <option value="skincare">Skin Care</option>
+                <option value="perfumes">Perfumes</option>
+                <option value="candles">Candles</option>
+            </select>
+
+            <section class="product-section">
+                <h2>Explore Our Product Offerings</h2>
+                <label for="product-category" class="dropdown-label">Select a Category:</label>
+                <select id="product-category">
+                    <option value="" disabled selected>Choose a category</option>
+                    <option value="skincare">Skin Care</option>
+                    <option value="perfumes">Perfumes</option>
+                    <option value="candles">Candles</option>
+                </select>
+    
+                <!-- Tables for each category -->
+                <div id="tables-container">
+                    <!-- Skin Care Table -->
+                    <table id="skincare-table" class="product-table" style="display:none;">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Moisturizing Cream</td>
+                                <td>Hydrating cream for daily use</td>
+                                <td>$25</td>
+                            </tr>
+                            <tr>
+                                <td>Face Wash</td>
+                                <td>Gentle cleanser for all skin types</td>
+                                <td>$15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+    
+                    <!-- Perfumes Table -->
+                    <table id="perfumes-table" class="product-table" style="display:none;">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Floral Bliss</td>
+                                <td>Refreshing floral fragrance</td>
+                                <td>$45</td>
+                            </tr>
+                            <tr>
+                                <td>Ocean Mist</td>
+                                <td>Light and breezy scent</td>
+                                <td>$40</td>
+                            </tr>
+                        </tbody>
+                    </table>
+    
+                    <!-- Candles Table -->
+                    <table id="candles-table" class="product-table" style="display:none;">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vanilla Bliss</td>
+                                <td>Smooth vanilla-scented candle</td>
+                                <td>$20</td>
+                            </tr>
+                            <tr>
+                                <td>Fresh Lavender</td>
+                                <td>Relaxing lavender-scented candle</td>
+                                <td>$22</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+    <!-- Main -->
+        <section class="product-section">
+            <h2>Explore Our Product Offerings</h2>
+            <label for="product-category" class="dropdown-label">Select a Category:</label>
+            <select id="product-category">
+                <option value="" disabled selected>Choose a category</option>
+                <option value="skincare">Skin Care</option>
+                <option value="perfumes">Perfumes</option>
+                <option value="candles">Candles</option>
+            </select>
+
+            <div id="product-table-container" class="hidden">
+                <h3 id="category-title"></h3>
+                <table id="product-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fresh Lavender</td>
+                            <td>Relaxing lavender-scented candle</td>
+                            <td>$22</td>
+                        </tr>
+                        <!-- Dynamic rows go here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bath & Body Works Direct, Inc. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+        
